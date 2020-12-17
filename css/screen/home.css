@@ -1,0 +1,30 @@
+#main-screen{
+    margin: 0px 15px;
+    height: 500vh;
+}
+.homepage-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.homepage-bar__logo{
+    display: flex;
+    align-items: center;
+}
+.homepage-bar__logo img{
+    width: 80px;
+    margin-right: 10px;
+}
+.homepage-bar__title{
+    color: var(--blue);
+    font-size: 28px;
+    font-weight: 600;
+}
+.homepage-bar__manu{
+    position: absolute;
+    right: 29px;
+}
