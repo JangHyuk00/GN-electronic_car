@@ -9,13 +9,63 @@
 </head>
 
 <body id="main-screen">
-    <div class="homepage-bar">
+
+    <header class="homepage-bar">
         <div class="homepage-bar__logo">
-            <img src="GN group.JPG">
+            <img src="img/GN group.JPG">
             <span class="homepage-bar__title">electronic car</span>
         </div>
-        <span class="homepage-bar__manu"><i class="fas fa-bars fa-lg"></i></span>
-    </div>
+        <span class="homepage-bar__menu"><i class="fas fa-bars fa-lg"></i></span>
+    </header>
+
+    <main>
+        <div class="sliding">
+            <input type="radio" name="slide" id="slide01" checked>
+            <input type="radio" name="slide" id="slide02">
+            <input type="radio" name="slide" id="slide03">
+
+            <div class="slidewrap">
+                <ul class="slidelist">
+                    <li>
+                        <a>
+                            <label for="slide03" class="left">
+                                <i class="fas fa-chevron-left"></i>
+                            </label>
+                            <img src="img/weihai.jpg">
+                            <label for="slide02" class="right">
+                                <i class="fas fa-chevron-right"></i>
+                            </label>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <label for="slide01" class="left">
+                                <i class="fas fa-chevron-left"></i>
+                            </label>
+                            <img src="img/value.JPG">
+                            <label for="slide03" class="right">
+                                <i class="fas fa-chevron-right"></i>
+                            </label>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <label for="slide02" class="left">
+                                <i class="fas fa-chevron-left"></i>
+                            </label>
+                            <img src="img/business-area.JPG">
+                            <label for="slide01" class="right">
+                                <i class="fas fa-chevron-right"></i>
+                            </label>
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
