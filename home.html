@@ -15,7 +15,14 @@
             <img src="img/GN group.JPG">
             <span class="homepage-bar__title">electronic car</span>
         </div>
-        <span class="homepage-bar__menu"><i class="fas fa-bars fa-lg"></i></span>
+        <span class="homepage-bar__menu">
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </span>
     </header>
 
     <main>
@@ -23,10 +30,9 @@
             <input type="radio" name="slide" id="slide01" checked>
             <input type="radio" name="slide" id="slide02">
             <input type="radio" name="slide" id="slide03">
-
             <div class="slidewrap">
                 <ul class="slidelist">
-                    <li>
+                    <li class="slidelist-column">
                         <a>
                             <label for="slide03" class="left">
                                 <i class="fas fa-chevron-left"></i>
@@ -38,7 +44,7 @@
 
                         </a>
                     </li>
-                    <li>
+                    <li class="slidelist-column">
                         <a>
                             <label for="slide01" class="left">
                                 <i class="fas fa-chevron-left"></i>
@@ -50,7 +56,7 @@
 
                         </a>
                     </li>
-                    <li>
+                    <li class="slidelist-column">
                         <a>
                             <label for="slide02" class="left">
                                 <i class="fas fa-chevron-left"></i>
