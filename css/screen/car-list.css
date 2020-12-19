@@ -8,12 +8,12 @@
 .link-header input{
     width: 130px;
     padding: 10px 25px;
-    margin: 25px 5px;
+    margin: 25px 1.5px;
     border-radius: 10px;
     border: none;
     background-color: var(--semi-blue);
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
 }
 .car-name{
@@ -25,6 +25,9 @@
 }
 .car-type__img{
     text-align: center;
+}
+.car-type__img img{
+    width: 70%;
 }
 .car-type span{
     display: block;
