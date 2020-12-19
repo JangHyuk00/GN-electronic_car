@@ -1,0 +1,14 @@
+.law{
+    transform: translateY(150px);
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, .6);
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 12px;
+}
+.legal{
+    text-align: center;
+    margin-bottom: 50px;
+}
