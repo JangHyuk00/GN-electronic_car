@@ -1,0 +1,43 @@
+.main-script{
+    transform: translateY(100px);
+}
+.link-header{
+    display: flex;
+    justify-content: center;
+}
+.link-header input{
+    width: 130px;
+    padding: 10px 25px;
+    margin: 25px 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--semi-blue);
+    cursor: pointer;
+}
+.car-name{
+    font-size: 27px;
+    width: 220px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.car-type__img{
+    text-align: center;
+}
+.car-type span{
+    display: block;
+    text-align: center;
+    margin: 10px 10px;
+}
+.car-type input{
+    padding: 5px 15px;
+    margin: 15px 0;
+    margin-bottom: 50px;
+    background-color: var(--semi-blue);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.car-type__intro{
+    text-align: center;
+}
