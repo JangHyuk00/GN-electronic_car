@@ -13,6 +13,8 @@
     border: none;
     background-color: var(--semi-blue);
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
 }
 .car-name{
     font-size: 27px;
@@ -30,13 +32,15 @@
     margin: 10px 10px;
 }
 .car-type input{
-    padding: 5px 15px;
+    padding: 10px 70px;
     margin: 15px 0;
     margin-bottom: 50px;
     background-color: var(--semi-blue);
     border-radius: 30px;
     border: none;
     cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
 }
 .car-type__intro{
     text-align: center;
