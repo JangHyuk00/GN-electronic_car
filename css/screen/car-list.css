@@ -6,14 +6,14 @@
     justify-content: center;
 }
 .link-header input{
-    width: 130px;
-    padding: 10px 25px;
-    margin: 25px 1.5px;
+    width: 100px;
+    padding: 10px 15px;
+    margin: 25px .5px;
     border-radius: 10px;
     border: none;
     background-color: var(--semi-blue);
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
 .car-name{
