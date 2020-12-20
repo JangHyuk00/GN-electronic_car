@@ -11,6 +11,9 @@
     text-align: center;
     margin-bottom: 30px;
 }
+.intro__car-img img{
+    width: 80%;
+}
 .intro__car .intro__car-text ul li{
     padding: 10px 10px;
 }

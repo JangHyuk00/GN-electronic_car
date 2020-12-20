@@ -6,8 +6,8 @@
     justify-content: center;
 }
 .link-header input{
-    width: 100px;
-    padding: 10px 15px;
+    width: 90px;
+    padding: 10px 0px;
     margin: 25px .5px;
     border-radius: 10px;
     border: none;
@@ -27,7 +27,7 @@
     text-align: center;
 }
 .car-type__img img{
-    width: 70%;
+    width: 80%;
 }
 .car-type span{
     display: block;
@@ -40,7 +40,7 @@
     margin-bottom: 50px;
     background-color: var(--semi-blue);
     border-radius: 30px;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
     cursor: pointer;
     font-size: 13px;
     font-weight: 600;
